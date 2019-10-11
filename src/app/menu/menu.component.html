@@ -1,0 +1,13 @@
+<div class="modal-wrapper" [class.hidden]="!showMenu">
+    <div class="modal">
+        <div class="modal-header">
+            <span>Cell highlight timeout</span>
+            <input type="text" #input min="100" max="10000" step="50" [value]="cellHighlightInterval" />
+            <span>ms</span>
+        </div>
+
+        <div class="modal-body">
+            <button (click)="onStartButtonClick(input.value)">Start</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+
+.field-wrapper {
+    width: 100vw;
+ }
+ 
+ .field {
+    display: flex;
+    flex-direction: row;
+    max-width: 400px; 
+    flex-wrap: wrap;
+    border: 2px solid #333;
+    margin: 0 auto;
+ }
+
+
+.cell {
+   width: 10%;
+   height: 10%;
+   outline: 1px solid #333;
+   background-color: rgb(140, 196, 255);
+   cursor: pointer;
+}
+
+.cell:after {
+   content: "";
+   display: block;
+   padding-bottom: 100%;
+ }
+
+.highlighted {
+   background-color: rgb(255, 255, 78);
+}
+
+.loose {
+   background-color: rgb(255, 80, 80);
+}
+
+.win {
+   background-color: rgb(108, 255, 108);
+}

@@ -1,0 +1,60 @@
+
+.score {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.score > div {
+    width: 200px;
+}
+
+.score p {
+    margin: 0px;
+}
+
+
+
+.score-progress-bar {
+    height: 5px;
+}
+
+.computer-progress-bar {
+    height: 100%;
+    background-color: rgb(255, 80, 80);
+}
+
+.user-progress-bar {
+    height: 100%;
+    background-color: rgb(108, 255, 108);
+}
+
+
+
+.players-wrapper {
+    background-color: #333;
+    color: #fefefe;
+}
+
+.player {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.player > div {
+    padding: 5px;
+}
+
+.count {
+    margin-left: 5px;
+    background-color: #777;
+    color: #fefefe;
+    font-weight: bold;
+}
+
+
+.player > .count {
+    width: 30px;
+    text-align: center;
+}

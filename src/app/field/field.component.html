@@ -1,0 +1,7 @@
+<div class="field-wrapper">
+    <div class="field">
+        <div *ngFor="let c of cells; let i = index"
+            [ngClass]="{cell: true, highlighted: c.highlighted, win: c.win, loose: c.loose}" (click)="onCellClick(i)">
+        </div>
+    </div>
+</div>

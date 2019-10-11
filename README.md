@@ -1,27 +1,15 @@
-# ComparusTestTaskAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
+### Test project created with Angular 8
 
-## Development server
+[Here you can try this app](https://maxkurylo.github.io/test-task-angular)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Task:
 
-## Code scaffolding
+There is a field 10x10 with blue squares, "Start" button, input (N - time in milliseconds) and score (computer vs. player).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+After start button clicked:
+1. Random cell (blue) highlighted with yellow color.
+2. If player clicks this cell during N milliseconds, the cell highlighted with green color and player’s score increments.
+3. Otherwise cell highlighted with red and computer’s score increments.
+4. If either player or computer gets 10 points score, the game is finished and modal window with results appears (must not use alert).
+5. Game starts from the beginning.
