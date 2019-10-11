@@ -1,7 +1,7 @@
 
 ### Test project created with Angular 8
 
-[Here you can try this app](https://maxkurylo.github.io/test-task-angular)
+[Here you can try this app](https://maxkurylo.github.io/comparus-test-task-angular)
 
 Task:
 
